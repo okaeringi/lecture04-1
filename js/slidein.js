@@ -13,3 +13,8 @@ var startSlideinFoxkeh = function(){
 //アニメーションを起動させるイベントを設定する関数
 var slideinFoxkehButton = document.querySelector("#slidein-foxkeh button");//ボタンのオブジェクトを取得
 slideinFoxkehButton.addEventListener("click", startSlideinFoxkeh);//イベントリスナーを用いてクリックした際にアニメーションを起動させるstartSlideinFoxkeh関数を呼び出す
+
+/*
+このプログラムはclass属性を持っている・持っていないをjavascriptで制御することによって、アニメーションを制御している。
+これはjavascipt単体でオブジェクトを動かすよりも圧倒的に処理が軽くなる。
+*/
